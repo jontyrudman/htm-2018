@@ -1,0 +1,95 @@
+[INFO  - 2018-11-04T00:09:51.957Z] GhostDriver - Main - running on port 54683
+[INFO  - 2018-11-04T00:09:52.883Z] Session [f3edcf00-dfc5-11e8-82d0-5f272b1f505b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-04T00:09:52.883Z] Session [f3edcf00-dfc5-11e8-82d0-5f272b1f505b] - page.customHeaders:  - {}
+[INFO  - 2018-11-04T00:09:52.883Z] Session [f3edcf00-dfc5-11e8-82d0-5f272b1f505b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-04T00:09:52.883Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f3edcf00-dfc5-11e8-82d0-5f272b1f505b
+[ERROR - 2018-11-04T00:10:08.054Z] Session [f3edcf00-dfc5-11e8-82d0-5f272b1f505b] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:08.054Z] Session [f3edcf00-dfc5-11e8-82d0-5f272b1f505b] - page.onError - stack:
+  /OLFdJLxRZ (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:1170)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  O27J2VCga9 (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:8421)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  bH5puqGGt1 (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12741)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  Bvm3aweHSm (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:5205)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  c96cY0IdE/ (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12930)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  kY/Uc71Va8 (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:14454)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  (anonymous function) (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:2431)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  (anonymous function) (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:44)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:08.085Z] Session [f3edcf00-dfc5-11e8-82d0-5f272b1f505b] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:08.085Z] Session [f3edcf00-dfc5-11e8-82d0-5f272b1f505b] - page.onError - stack:
+  hpV4JWU0K6 (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:13907)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  EJaXNmAx3B (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:5681)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  IIpzxDTdC3 (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:6213)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  /W/ggH9WyQ (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:2264)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  4JOyD1bKYU (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:3210)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  BIYSGtzGjH (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:4809)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  VDPlEqaRwD (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/common.bundle-c0050fba80.js:582)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  canvasWebpackJsonp (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:7)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:08.113Z] Session [f3edcf00-dfc5-11e8-82d0-5f272b1f505b] - page.onError - msg: TypeError: undefined is not a function (evaluating 'n.default.render(i.default.createElement(o.default,null),document.getElementById("global_nav_tray_container"))')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:08.113Z] Session [f3edcf00-dfc5-11e8-82d0-5f272b1f505b] - page.onError - stack:
+  8+xL4iWpIS (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/navigation_header.bundle-0e1cc34352.js:10)
+  a (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:12)
+  canvasWebpackJsonp (https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/vendor.bundle-1b1bb54e31.js:7)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:14.103Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290214051
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:14.998Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290214972
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:15.816Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290215784
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:16.640Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290216613
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:17.472Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290217432
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:18.292Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290218261
+
+  phantomjs://platform/console++.js:263 in err[INFO  - 2018-11-04T00:10:23.283Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+19083
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:19.946Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290219910
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:20.773Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290220737
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:21.598Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290221562
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:22.422Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290222389
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:23.241Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290223210
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-04T00:10:24.070Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1541290224031
+
+  phantomjs://platform/console++.js:263 in error

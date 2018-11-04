@@ -1,38 +1,54 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-import mechanize
+from selenium import webdriver
+import selenium.webdriver.support.ui as ui
 from bs4 import BeautifulSoup
-import cookielib
 import getpass
+import time
+import os
+import ffmpeg
 
-cj = cookielib.CookieJar()
-br = mechanize.Browser()
-br.set_handle_robots(False)
-br.set_cookiejar(cj)
-br.open("https://canvas.bham.ac.uk/courses/31135/external_tools/1777/")
+os.environ['MOZ_HEADLESS'] = '1'
+driver = webdriver.Firefox()
+wait = ui.WebDriverWait(driver,10)
+driver.set_page_load_timeout(15)
+driver.get("https://canvas.bham.ac.uk/courses/31135/external_tools/1777/")
 username = raw_input("Username: ")
 password = getpass.getpass("Password: ")
+driver.find_element_by_name("j_username").send_keys(username)
+driver.find_element_by_name("j_password").send_keys(password)
+time.sleep(1)
+driver.find_element_by_css_selector(".btn.btn-primary").click()
+driver.get("https://bham.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?embedded=1#folderID=%2254511c16-cbb6-41c0-86e8-a96b0106b546%22")
+wait.until(lambda driver: driver.find_element_by_name("commit"))
+driver.find_element_by_name("commit").click()
+time.sleep(4)
 
-br.select_form(nr=0)
-br.form['j_username'] = username
-br.form['j_password'] = password
-br.submit()
+html = driver.execute_script("return document.getElementsByTagName('html')[0].innerHTML")
 
-br.select_form(nr=0)
-br.submit(label="Continue")
+links_orig = []
+ids = []
+links = []
+soup = BeautifulSoup(html, features="html5lib")
+for x in soup.find_all('a', class_="detail-title"):
+    cur = str(x.get('href'))
+    links_orig.append(cur)
+    if cur.find('=') > -1:
+        ids.append(cur[cur.index('=')+1:])
 
-print(br.response().read())
+for x in ids:
+    links.append("https://bham.cloud.panopto.eu/Panopto/Podcast/Social/" + x + ".mp4?mediaTargetType=videoPodcast")
 
-print("\nNEW PAGE\n")
+num = 0
+for x in links:
+    print(x)
 
-print(br.response().read())
+    (
+        ffmpeg
+        .input(x)
+        .output(str('output' + num + '.mp3'), '-', acodec='mulaw', ac=1)
+        .run()
+    )
+    num = num + 1
 
-br.select_form(nr=0)
-br.submit()
-
-print("\nNEW PAGE\n")
-
-
-output_file = open("output.txt", 'w')
-output_file.write(br.response().read())
