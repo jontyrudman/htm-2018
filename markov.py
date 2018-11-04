@@ -1,5 +1,7 @@
+import markovify
+from util import *
+
 def generate(filename):
-    import markovify
 
     # Get raw text as string.
     with open(filename) as f:
@@ -12,6 +14,11 @@ def generate(filename):
     for i in range(5):
         print(text_model.make_sentence())
 
+def create_model(file):
+    text = read_file(file)
+    output = open(file+'.json', 'w')
+    output.write(markovify.Text(text, state_size=2))
+    output.close()
 
 
 

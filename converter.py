@@ -23,7 +23,7 @@ Example usage:
     python transcribe.py "audio.wav"
 """
 
-import argparse
+
 import io
 import time
 
@@ -59,6 +59,7 @@ def transcribe_gcs(filename):
 
 
 if __name__ == '__main__':
+    import argparse
     parser = argparse.ArgumentParser(
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
