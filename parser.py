@@ -74,12 +74,13 @@ def get_videos(username, password):
 def get_wav(links):
     links = links[::-1]
     for i, link in enumerate(links):
-        (
-            ffmpeg
-            .input(link)
-            .output("out" + str(i) + ".wav", acodec='pcm_s16le', ac=1)
-            .run()
-        )
+        if not os.path.isfile("out" + str(i) + ".wav"):
+            (
+                ffmpeg
+                .input(link)
+                .output("out" + str(i) + ".wav", acodec='pcm_s16le', ac=1)
+                .run()
+            )
 
 if __name__ == "__main__":
     username = raw_input("Username: ")
