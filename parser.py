@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*-
 
 from selenium import webdriver
+import selenium.webdriver.support.ui as ui
 from bs4 import BeautifulSoup
 import getpass
 import time
-import sys
+import os
 
-
-reload(sys)
-sys.setdefaultencoding('utf-8')
+os.environ['MOZ_HEADLESS'] = '1'
 driver = webdriver.Firefox()
+wait = ui.WebDriverWait(driver,10)
 driver.get("https://canvas.bham.ac.uk/courses/31135/external_tools/1777/")
 username = raw_input("Username: ")
 password = getpass.getpass("Password: ")
@@ -19,7 +19,7 @@ driver.find_element_by_name("j_password").send_keys(password)
 time.sleep(1)
 driver.find_element_by_css_selector(".btn.btn-primary").click()
 driver.get("https://bham.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?embedded=1#folderID=%2254511c16-cbb6-41c0-86e8-a96b0106b546%22")
-time.sleep(4)
+wait.until(lambda driver: driver.find_element_by_name("commit"))
 driver.find_element_by_name("commit").click()
 time.sleep(4)
 
@@ -44,3 +44,4 @@ for x in links:
     x = driver.current_url
     print(x)
 
+driver.quit()

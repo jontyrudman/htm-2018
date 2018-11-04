@@ -2719,3 +2719,53 @@ JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2583: Type
 1541276758981	Marionette	DEBUG	[2147483649] Received DOM event unload for https://d2hpwsdp0ihr0w.cloudfront.net/sessions/3f338d75-9477-47d0-96d7-a97000b57a87/fe0fbe78-27ab-411b-a3f8-a97000b57a9a-af30ba68-6d74-4521-819e-a97000d45f3f.mp4?invocationId=9e5e90a3-a6df-e811-8156-06ee88384009
 1541276762259	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://d2hpwsdp0ihr0w.cloudfront.net/sessions/687c4270-ca13-4358-a478-a96d00b5e2ee/7e145573-1f2d-4325-911b-a96d00b5e311-99abc6ce-c33c-4877-92d2-a96d00d52d4d.mp4?invocationId=9decc0a9-a6df-e811-8156-06ee88384009
 1541276775550	Marionette	INFO	Stopped listening on port 33923
+*** You are running in headless mode.
+1541290344701	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RxipJAOhSvts"
+*** You are running in headless mode.
+1541290345029	addons.xpi-utils	WARN	addMetadata: Add-on {03cb16aa-4675-11e5-b233-213b1d5d46b0} is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1541290345030	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1541290345032	addons.xpi-utils	WARN	addMetadata: Add-on {8a01dfcc-450f-11e5-909b-fb581d5d46b0} is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1541290345033	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1541290345037	addons.xpi-utils	WARN	addMetadata: Add-on {52c2877e-44e1-11e5-8874-a62d1d5d46B0} is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1541290345037	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1541290346044	Marionette	INFO	Listening on port 43661
+1541290346107	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4726, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
