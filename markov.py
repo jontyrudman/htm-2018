@@ -1,21 +1,24 @@
+import markovify
+from util import *
+
 def generate(filename):
-    import markovify
 
     # Get raw text as string.
     with open(filename) as f:
         text = f.read()
 
     # Build the model.
-    text_model = markovify.NewlineText(text, state_size=3)
+    text_model = markovify.Text(text, state_size=2)
 
     # Print five randomly-generated sentences
     for i in range(5):
         print(text_model.make_sentence())
 
-    # Print three randomly-generated sentences of no more than 140 characters
-    for i in range(3):
-        print(text_model.make_short_sentence(140))
-
+def create_model(file):
+    text = read_file(file)
+    output = open(file+'.json', 'w')
+    output.write(markovify.Text(text, state_size=2))
+    output.close()
 
 
 

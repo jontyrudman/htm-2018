@@ -1,9 +1,10 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from selenium import webdriver
 import selenium.webdriver.support.ui as ui
 from bs4 import BeautifulSoup
+import ffmpeg
 
 import getpass
 import time
@@ -55,7 +56,33 @@ class Parser(object):
         num = 0
         for x in links:
             self.driver.get(x)
-            x = self.driver.current_url
+            time.sleep(1)
+            links[num] = self.driver.current_url
             num = num + 1
         self.driver.quit()
         return links
+
+def get_videos(username, password):
+    p = Parser()
+
+    if not p.login(username, password):
+        print("Problem with login")
+        return
+    links = p.get_video_urls()
+    return links
+
+def get_wav(links):
+    links = links[::-1]
+    for i, link in enumerate(links):
+        if not os.path.isfile("out" + str(i) + ".wav"):
+            (
+                ffmpeg
+                .input(link)
+                .output("out" + str(i) + ".wav", acodec='pcm_s16le', ac=1)
+                .run()
+            )
+
+if __name__ == "__main__":
+    username = raw_input("Username: ")
+    password = getpass.getpass("Password: ")
+    get_wav(get_videos(username, password))
