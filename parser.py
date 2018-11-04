@@ -72,16 +72,16 @@ def get_videos(username, password):
     return links
 
 def get_wav(links):
-    i = 0
-    for link in links:
+    for i, link in enumerate(links):
         (
             ffmpeg
             .input(link)
             .output("out" + str(i) + ".wav", acodec='pcm_s16le', ac=1)
             .run()
         )
-        i += 1
 
+def upload_wavs():
+    
 if __name__ == "__main__":
     username = raw_input("Username: ")
     password = getpass.getpass("Password: ")
