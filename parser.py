@@ -80,8 +80,6 @@ def get_wav(links):
             .run()
         )
 
-def upload_wavs():
-    
 if __name__ == "__main__":
     username = raw_input("Username: ")
     password = getpass.getpass("Password: ")

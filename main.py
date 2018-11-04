@@ -7,7 +7,7 @@ def update_videos(username, password):
     for root, dirs, files in os.walk(directory):
         for file in files:
             if file.endswith('.wav'):
-                upload_blob("audioforhtm", file, file);
+                upload_blob("audioforhtm", file, file)
 
 if __name__=='__main__':
     username = raw_input("Username: ")
