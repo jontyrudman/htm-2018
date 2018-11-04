@@ -1,0 +1,569 @@
+then talk briefly about the class test on Tuesday the last test last for 1 hour starting at a quarter past 2
+ and we'll have two questions on the question paper one from me and one from Ian Kenny
+ the Met Examination for this course will be 2 hours long and we'll have four questions two for me and two from for Levy
+ in May
+ they would be one question for me about linear algebra and one question about set theory
+ and I don't know what polarity will do but then probably be one question computability Theory and one question complexity Theory
+ I will try to make the class test question look almost exactly like a May exam question would look like
+ but the class test covers everything up and including today and so it will probably be a mixture of topics from
+ linear algebra and set theory but the question will only have three or four parts
+ and that means that they will be many topics that we have talked about that will not be on the cluster
+ which topics will be on the class that I don't get no because I have not written that question yet so you cannot ask me about that
+ contrary to what I have done in previous years
+ if there is a question to prove something
+ diet will be your proof that you have either seen me do on the board or prove that you have tried to do in one of the exercises
+ so you want to be a known statement that has been proved in class not a new statement as I have done in previous years
+ calculators are allowed
+ but they will hopefully be unnecessary I'll try to make them unnecessary but if it makes you feel good you can bring it along it must be a nun
+ text story
+ talk to you later though just a numeric calculator
+ each question we have two on Tuesday will add up to 20 points
+ and that would be the same in the Met examination all exams in May from now on and into our future will add up to 20 20 Max
+ and whatever the overall sum is on an exam paper will be scaled to 100 which is the standard scale in this country
+ some marks out of those 20 will be reserved for outstanding work
+ I wish I mean that the answer is not just correct after syrians of detours but it is also elegant and shows real understanding
+ on Tuesday obviously you will not be in the mind frame to listen to me droning on about yet another topic and so the lecture is cancelled but she is stay but I will be in the lecture room next door and if you want to come along to ask a question any question then I'll be there to answer that
+ likewise after the class test that will be no exercise class
+ instead of all and I and the rest of the team we will be sitting in two for five marking the class test so that hopefully by Tuesday night you would already find on canvas your score at least on the question from this course obviously not from the programming course
+ there are some exercises on this week's handed you turn it around to see the some exercises there about today's traffic
+ so we don't have an exercise class today but I thought you might want to have some questions to practice your understanding and if you want to ask about those exercises on Monday and that would be fine I'll also publish the model answers on Sunday afternoon as I always try to do
+ are there any questions about the arrangements for the class pass
+ so that's a very good question the reason why the class test takes place at such a strange time
+ is that we have been unable to find big enough rooms at any of the other times that we tried and it's really destroyed our usual weekly pattern of Lexington exercise classes
+ so we have to let the theaters one is mechanical engineering G 31 and the other one is too large pointing like the theater that's in physics physics if you may have had elected they are don't know
+ I'm only live probably do is that people with even registration numbers go one way and those without registration number go the other way and hopefully we'll have a good split so that at least everybody can have a little bit of space around themselves to put their elbows down and they are Rustburg
+ any other questions I'll send the router did not talk to Ian Kenny this afternoon any other question
+ okay right
+ so then let's carry on with
+ our introduction to set theory we had a bit of a few things last week already and today we talked about relations as we understand loving.
+ that's a very simple definition suppose I have some sets
+ hey one
+ A2
+ and so on
+ finitely many today
+ that I can form what we call the product of the sets
+ which we have already seen the product of two sets that is the set of pears first component being taken from a 1 second component from a 2 and so now we just carry on like that and take the product of all the end sets and the elements of this
+ X1 X2 and so on xn
+ where the elements are from the corresponding step writing this element symbol 90° turn around
+ and what is a relation a relation are is simply a subset of such a product of sex so it is a set offset couple
+ and that's it there's no restriction on what relation
+ what has to be in there or not put the empty set everything it doesn't snow restriction anytime we have this situation we call our a relation between the Sexes a1822 a.m.
+ okay
+ so I'll give you an example from databases databases I told you about the birthday history of databases relational database and a relational comes from this idea so I could take for a one I could take what I wrote to you I stick my star at maybe an unfortunate notation let's ride maybe a star with a is an alphabet
+ and then take a product with a natural numbers and then the product with the natural numbers yet again and so every element of the set now is a string and the number and the number
+ and that could be a relation here I give you a different name but holding our let's call it staff
+ off the school of computer science and then this relation could record the name of a lecturer they are telephone extension and they office number
+ my name followed by my extension
+ don't call me at 9 and my office number to 1/3 you should maybe know that
+ I would be an element of that's an element of the staff relation
+ mayonnaise that stops can be formed and many tacos will not be in the staff relation
+ so only members of the school with their telephone extension and they are office number so if you want to have a visualization of this
+ then there's some space there in box 137 we could have this block for all the strings over our alphabet
+ a star
+ and then we could maybe write the natural numbers as long number line
+ and that the natural numbers again
+ and then I could indicate
+ that a particular string name is a string is related to a particular number here
+ 44776 and that in turn is also related to my office number to 1/3
+ this relation
+ okay
+ so I hope you agree that is there
+ very simple straightforward idea then in the database you list all these triples three doubles triples in a terrible and that is than the tables that you may be familiar with from your database course in school or if you haven't had that it is a table that you might write yourself if you want to collect some data about a particular situation in the spreadsheet or in a database management system
+ you look at the code in SQL the database language to create such a terrible and it is very straightforward this command
+ in order to create such a terrible you say create table
+ we already know that SQL is very closely modeled on set theory and so you will see that it looks
+ so similar to what we wrote up there we give you the name correct table stuff and just use the next line here
+ I know we have to give names to The Columns of that table which in set theory we don't have to do but yeah we do
+ we called the First Column name and then we say should be a string of variable and so Vach seem to be a good time for that and then the next one would be the phone extension and that is just a tent
+ and then the office number would also be chest
+ indent
+ semicolon at the end
+ so
+ very similar to set theory string X number X number
+ the night in the next box if you want to enter a record into this tables article to record such a couple in database a record that we say insert
+ into
+ the staff table
+ the topple
+ so values okay enter into staff the Topo
+ and I you could say Okay has to be a single quote there and then the number 447-769-1213
+ but that's a triple exactly as we would write it in mathematics
+ okay
+ there's also a language which is the best and tirely on relations it's called prologue we used to teach it in the second year because it is a language that is very much favored by people working in natural language processing and generally in Ai and reasoning but it has fallen out of favor we don't teach it anymore if it's old-fashioned answer then we leave the next box empty okay and it's not that anything interesting could come out of it
+ it starts for recording some relationships and data by let's see what we can do with it mathematically today
+ in fact I could say everything in mathematical and set theory is either a set or it's a relation so almost everything we work with is expressed using relation
+ I must be really really careful not to conclude a sentence with the word know because that could lead to alcoholism in some parts of the audience how many have I had so far
+ that's not true I do making this just you making this up so today we look at a particular situation namely binary relations
+ so today I learnt relation are is only binary actually next week as well
+ so it with thinking about Paris
+ in the relation and we take a 1/2 ba to the same set so it's a relation on a set
+ as many examples there very interesting examples and my running example you should draw into box 141 I take a to b a four elements set
+ and I draw the four elements as for the circus here I called them little a little B Little D
+ interrelation I indicate buy arrows in the diagram so a b or a is in relation to be
+ D is in relation to a C is in relation to D-Day is in relation to C & C is in relation to itself
+ the movie Catching it's a little graph a graph
+ and if I want to express the set theoretically I have to say what the said a s and its traditional in a graph to call the set a note for vertices vertices of the graph
+ and I discussed at ABCD
+ and instead of saying are for the relation or SAE for the address of the graph
+ and this would be a subset of the times be so a subset of pairs of these elements and as we set a is in relation to be that's one element D is in relation to a
+ land is in relation to Sea
+ C is in relation to D and C is in relation to itself
+ which set is a set with five elements five pairs of five edges
+ what's a very simple little graphic there
+ a lot of problems in computer science can be expressed about questions about graph Theory
+ and so in the many books asking me about books many books about discrete mathematics for computer science they talk a lot about these graphs usually the second half of the book is all about graph Theory
+ butter
+ Winchester look at some properties that such a graph might have
+ so let's start with the first property is already written in the hand.
+ And that's reflexivity so I say a relation or in general we can think of a graph now it's called reflexive
+ if and only if
+ okay
+ what do I mean it is reflexive if every element of a is connected to Itself by the relation if for every 2 all elements in a
+ it is the case that
+ pair x x belongs to the realization
+ my example relation is not reflexive because only see is connected to itself where is the condition says this has to be true about every element it's only true at one element
+ so it's not reflexive
+ yeah the handout I also say we could also think about the relation person likes person be so then the set a is the set of all people and a relation RS person who likes person pee
+ now we can ask ourselves
+ the relation to like someone is it reflexive
+ is it true then that every person is in relation to him or herself meaning they like
+ themselves
+ some people like themselves very much but that doesn't compensate for the fact that some people do not like themselves so it's not a reflective relationship that's very sad but it's a fact
+ but in mathematics we can of course
+ I meant things we can take a relation all that's not reflective like that one and make it reflexive that's called a reflexive closure
+ and I write it as a raffle closure
+ off the relation are
+ what is an operation on relation and binary relation and it returns another binary relation and the definition is very simple I just I take
+ and just add all the pears
+ okay have a written it okay that's why I did that Y X Y in a squared where X is equal to what
+ so let's just read that again we take the old relation
+ and we had all those pears
+ where the first component equals the second component all those links where an element is linked to itself
+ now you see what we do this in this graph up there I think there's some space there in your hand. Is the graph already drawn yet okay and see what we could do is we could tell it to make it reflects so it wasn't a reflexive before Less ad a a b b a d d
+ and let's add CC but CC was already there
+ it doesn't matter
+ because according to set theory and LMN will anyway only be there at most once even if you mentioned it twice it doesn't matter so here I have CC
+ I got through the union with this particular are
+ but it stays the same and this note I don't get the second link is at the multi craft it's just an ordinary graph there is a link from C2C just one in that set up a new set of edges
+ so if ya could have the new Edge set
+ does that make sense
+ now he's made it reflexive is a reflexive closure
+ okay so next definition then
+ play if I was a good psychotherapist I would make the liking relation reflexive that would solve a lot of problems in the world how about symmetry so I say a relation is symmetric
+ I'm what I want to stay here is that whenever there is a link from one element to another one and there's also a link to the other direction
+ so I say
+ if
+ fall
+ okay I could stay for all XY
+ and I like it different from what I did in the end. It is the case that
+ if x is related to y
+ then
+ sorry
+ is that related then y x
+ it's also in the relation
+ if x y then white
+ okay
+ so it's my example relation symmetric
+ clearly not traveling from A to B but not from B to a it's almost totally not symmetric or most
+ I think except for cc is of course the case cc is a relation and CC is a relation so that mean anything
+ is almost totally
+ Pia
+ yatsa India handout I wrote this differently they are out for repairs
+ XY in a square two elements from the set a nice of this way so maybe I should change my hand out there okay to like someone is a relationship
+ it's sadly very much not symmetric most of the world literature depends on the fact that is not symmetric okay and again if you could make it to metric solve a lot of problems
+ but that also make life a lot more boring
+ all we need to do
+ how you cancel this girl that in inbox 143 s we need to make this statement true
+ so we can do the symmetric closure
+ if there is a link in One Direction we just have to add a link in the other direction as well
+ okay
+ the nicest symmetric relation
+ so how could I express that said theoretically is very easy
+ find
+ particularly if I introduce an abbreviation
+ if I have a relation I can consider all right or people are to the mine as well
+ I just got the reverse relation
+ how do I Define it
+ I decided to be the set of pairs XY
+ in a squared so I may get a relation such that
+ the reverse
+ y x belongs to our
+ y x belongs to our land the reverse of it XY
+ becomes a member of our to the -1 and if I do that then I can easily write out the symmetric closure
+ closure of our
+ operation on relations and that is just our Union are to the -1
+ and the guy just a relation was already symmetric at for certain length already existed somewhere in the grass. Doesn't matter if I added again because that's very count everything only once
+ so very
+ simple
+ there's also another concept
+ which is anti symmetric
+ and that would also be important to us when do I call a relation anti symmetric
+ that is I want to call it anti-semetic if it's never the case that two different elements are related both what
+ and the typical example for that is the strict order relation on the natural numbers it's never the case on the numbers that number is strictly less than a number P and symbol taneously number B is strictly less than number at the whole idea of the ordering of the natural number is that is not symmetric is not a symmetric relation is very much and ordered relation okay you guys have a lot of fun with your mobile phone but I see it and it makes me mad stop it
+ okay can you say yes
+ okay
+ so how could I Define when a relation are is anti symmetric
+ so I play on this idea that is different elements that are not allowed to be in the relationship both ways
+ so I could say that I could say are or is anti symmetric
+ if
+ if it were the case that XY and YX are in relation but actually excessive equal to one that is the only way that this is allowed to happen that is the easiest way to write this story before XY and I'll take two elements
+ if XY is in the relation
+ and
+ Y X is also in the relation then it must be the case that this was the same element because for different elements that would not be a lot that's how we write that
+ anti symmetric
+ anti symmetric is not the opposite of symmetric there are many many relations which are neither symmetric nor anti symmetric
+ for example the relationship to like someone as many cases where a likes B and feel like a but they're not the same person now okay
+ and then we have one more property to consider and that is transitive
+ okay that's alright it. I say R is transitive
+ if the following happens
+ for all x y z
+ I'll take three elements and ever take three elements in a it is the case that
+ if XY is in the relation and
+ why that is in the relation
+ so I have a link from X to Y and ending from y to set that it is the case that X that is also in the relation
+ okay
+ it's this example that we had on the board transitive
+ without the green lynx
+ doesn't really matter but let's move remove the green Lynx again
+ okay is it trying to do
+ yes or no
+ not there's a link from d2a and one from A to B but there is no link from D to B so it's not transitive
+ Cactus I almost totally not transitive you can do any combination that's possible like dhit from agency and there's no link from DTC so it's not transitive anywhere we have a little break now and on this 144 you could try to make that relationship transitive so add all the links that need to be added so that the relation becomes Transit
+ so let's have a 5 minute break for that and then do it together
+ miss you okay
+ at all the links
+ well you have one thing in the middle that gives you some new connections now you can use those new connections without connection to make more links
+ and that means diesel links that originally had two notes in the middle and then three notes in the middle for note in the middle so what we really saying is we have a direct link Whenever there was a path before in the graph example I can go from D to D because there was a path from a from a to c i from C to D I have to have this link from D2D very simple idea off of path
+ but strangely or interesting Lee this is not so easy to write out in mathematics
+ that is a very curious fact if I want to write this I cannot use my usual logic so let's try to do that let's try to use write a formula for connecting with one node in the middle does it part I have two relations R&S
+ they are both relations on the same set a and I want to say what are the links that use a link from our first and then link from s so I said are followed by S it is often used for that what would that be
+ that's an interesting formula although it doesn't completely solve my problem is transitivity
+ so I say these are all the connections
+ X let me use that that's helpful
+ from a square
+ and now I use a new logical symbol that we haven't had yet
+ where there exists so it's a turned around and it is right there exist so the condition for a raise that to be here in this one is that there exists an element in a
+ for which it is the case that XY belongs to our and
+ why's it belongs to us
+ that is the condition
+ I'm writing out what we have been doing the note B is the one in the middle I make two steps generally for R&S
+ First Step along the relation are Danner step in the relation is the transitive closure
+ Alpha relaxation
+ I could say it is the original relation are union whatever I can get when I compose are with itself
+ and Lisa again all the path that have one node in the middle
+ but that's not good enough because then maybe two notes in the middle and said I would have to write it like that and that might not be enough I may have three notes in the middle
+ and you can see the pattern it just goes on forever and ever
+ on every final
+ set up vertices it has to stop eventually
+ but in general my formula is infinitely long
+ I meant to say I cannot see a very clumsy way of expressing a very simple concept Miami the concept of having a path in a graph
+ ice curiously it is a theorem
+ that the transitive closure cannot be expressed in the simple logic was for and exists
+ there is no simple formula for that
+ so you can stay with us at the mathematics of curiosity you should get your logic straight or him
+ but SQL is based on set theory and logic and in SQL you can also not express transitive closure as an SQL query
+ so if you want to know all the flight connection from here to Singapore then you cannot just say to SQL compute the transitive closure of all direct flights
+ and also said that the landing time of the departure times match SQL cannot compute.
+ People have extended that I can of course write a while loop that computes those things in a loop and keeps Computing until we reach a saturation point
+ and say okay nothing you seems to appear I think I can stop that
+ okay that's the Curiosity but I hope at least
+ without that little problem about the logic we can read that infinite formula here easily enough it just means or pass of all possible length length Sierra
+ okay so these are some basic properties of relation if a relation doesn't have those properties we can enforce them we can compute the smallest relation that has the properties
+ why would I want to say now is let's look at two packages of properties that are very important so that's on the next page they on page 72
+ hasta donde board update
+ so I say are
+ s
+ and Order relation
+ and you should really think about the order on the natural numbers if it is reflexive
+ anti symmetric
+ intransitive
+ is that true about ordering relation of the natural numbers is every number less than or equal to Itself by definition get to this is it anti symmetric we talked about that
+ if you have a number less than another number and also the other way around. Actually this must be the same number this is trying to test it one number is less than another one and that is less than another one then it's Transit a little bit about relations
+ so in general
+ it could be that two elements of the setae not in relation one way or the other and numbers that doesn't happen to take any two numbers and they are either in relation this way or that way natural numbers have a complete order that completely ordered in the usual everyday sense of the birth order
+ but if you take a different order on the natural number
+ and the one that I want to draw a picture for here is to take division
+ or divisibility and that's not total a total order so I could say hey divides the number be so not talk about natural numbers
+ if B is a multiple of a cell can divide it without a reminder
+ now I can drive try to explore that a little bit let's do that for the number 18
+ I look at all the numbers that divide 18
+ so if I just take the set that consist of
+ 18 and everything that divides 18 for example 9
+ 6
+ 3 2 1
+ that's it huh that's it
+ and I say he not order this by divisibility to all of those guys divide 1818 divided self + 9 + 2 / 6 + 7 + Sarah inbox 145 week and roll it a diagram of all the divisibility is that we have
+ and this is how I withdraw it I'll put the number one at the bottom here and then I say the number one divides the number two
+ it also divides the number 3
+ but two does not divide 3 and 3 / 2
+ but two and three both divide the number 6
+ now I'm getting into trouble here on the board
+ 6 divided 18
+ and 3 divide 9 and 9 divided by 18
+ when I got this to square this dummy No Shave
+ what I can do that can stop here I can say yes one or two divide 9 it also divides 18 and it was a device 6 but I don't draw those connection because they can be derived from transitivity I'm only writing out the divisibility that are kind of Elementary that cannot be found as a path through some other number let me get this little this little picture here is called an order diagram or sometimes called a hustle diagram
+ are there Easter in fact there is an implementation of these diagrams in computer science is called a make file but I know that you have heard about this yet for those who like you know you can define a makefile in the make file you Define disorder dependencies between different components of your program and then whenever you change a program some code you run make make wreaths to make file and he realizes that this file has changed and so it'll be compared to file what is that also recompose every other file that depends on that
+ so it does kind of the transitive closure of dependency system and you can really not do without a facility such as make and make file so hopefully Ian will teach you a little bit about that okay no relation between numbers here 2 and 3 are incomparable 69 also incomparable they don't divide each other either way
+ I think it's very Visual and very very clear I hope so the next package of property is maybe more
+ interesting and that's let me just use a different color
+ I'm tired of black
+ but Amy Winehouse
+ so that's the coolest relation so I say r
+ is an equivalence relation
+ if it is reflexive
+ symmetric
+ intransitive
+ it's not a good panda
+ almost the same as an order relation
+ instead of anti symmetry of symmetry
+ are there completely different concept work in completely different ways
+ what is an order relation is very much like the comparison between numbers or divisibility if you wish
+ an equivalence relation is very much like a quality
+ so it is a form of equality on the set a because equality is reflexive everything in the world is equal to itself
+ everything equality symmetric
+ if something is equal to something else
+ are you trying to run a steel coil
+ any colleges transitive
+ it one thing is equal to something else and that's equal to something else and that is still equal
+ psychology is an equivalence relation a very boring one because everything is at the end of the day only equal to itself nothing interesting happens so it is an extension of the idea of inequality so that you can compare more things with each other
+ very often that's not in the hand. Very often that equality comes from looking only at a certain predicate
+ so I could say
+ if I'm born in April
+ and if you are born in April that say what do you call it sign of the zodiac for the month and if you have the same month you born in as he then all three of us are equivalent as far as the month of birth is concerned
+ so if you ignore lots of other differences for example those two people younger than just look at the month of birth
+ play protect gender
+ of course if I have the same gender someone else they have the same gender somewhere else then that's just some form of ecology would equal up to ignore everything else just by looking at gender we become equal or equivalent
+ okay
+ so here are some
+ I don't want to ride this on the boy would take forever we could stay
+ suppose that
+ Alexandro here submits a program in response to Ian Kennedy's
+ challenge
+ what's your name
+ a program to Ian Kenny and actually Ian Kenny finds out that is actually the accounts on the same file
+ that's called plagiarism
+ but even if they come from different files
+ but the files are in identical in content
+ that still plagiarism right
+ say anything Cleveland nice to progress or equivalent because that contain the files contain the same content although they're not actually the same file
+ or maybe what's my next one here maybe Tom here is the bad guy sorry town maybe you said oh I don't want to find out I just reformat everything so he asked more white space Maybe Alexander's program wasn't properly indented so he does lots of indentation
+ no the content is not the same the files are different
+ but the stuff that mattress is still the same
+ it's still Blazer ism
+ Oregon Tom goes along and says yeah but doesn't matter in which order you define the fields of a of a class and in which order you define the methods or mix everything up a little bit
+ that's another equivalents still plagiarism
+ what else could you do he could say he doesn't really matter what name I gave to the class and the variables and the methods such as change all those things around call refactoring I'll talk to you want to do refactoring but if I sit still plagiarism
+ well then he says I don't know why Alexander had all these little methods there to exchange to values and stuff whenever he uses this method I'll just write out the code directly in my Pro that's called in lining
+ no it's not so clear that he and Kenny would ever find out not so clear
+ but you could say in a somehow he still using Alexandra's ideas still plagiarism their programs are still equivalent those two programs are equivalent because they both solve this problem of finding all the valid email address in the corrupted file
+ but Tom does it his way and Alexander does it his way and there may be some similarities but generally actually the different ways of doing that because they have the same effect
+ are we would no longer called it plagiarism
+ okay
+ so we can view objects at different levels of granularity would sign from being actually the same one to some quite different one but still somehow equivalent in its major components for the very practical incarnation of the idea of equivalents
+ well that makes sense
+ maybe with this particular example it doesn't make sense
+ okay so equivalence relations I like to say that or absolutely fundamental to I was thinking
+ I would say the difference between humans and animals is that we thinking equivalence relations and I don't
+ maybe they do I don't know but I had a dog once and
+ that's just a very nice. Really that's very smart in some ways no but for my dog you know so we went to wait for him to America for year and then we we had a PhD student look after the dog and after a while ago but it's alright I have a new boss here and customer from France and I just went with him he ignore the fact that he was my dog
+ what's up another person who gave him food and water and that was it
+ what we humans we think in categories we think in the girls relationship we say why is it golden retriever like my life is not a golden retriever we can think about the class of all golden retrievers all the classified dogs versus the class of old cats and they are different classes so we can think of all the kinds of old bananas and other fruit maybe we should not try to eat
+ so this ability to abstract away from Little differences and see the commonality is very much at the heart of human thinking
+ and sometimes we go overboard
+ Land Before Time these classes
+ well it's really not helpful to make those distinction particularly between people and I think you can only imagine what I mean okay but fundamentally we are hardwired to do this all the time hardwired to form this classes that's what I wanted to talk about next to if you have any Cleveland relax it's very often written in this way Sydney by me
+ because it looks like an inequality sign but it's not equality it is almost like a quality and that's the way you should think about an equivalence relation
+ so when you have such a thing and you have an element from the set a then you can look at what I call the equivalence class of a
+ which is all the elements that are equivalent to it
+ so that's right beside it is a set of all the EX's in LA
+ which are equivalent
+ to this special particular element little head
+ all the EX's in a that are equivalent to it
+ so these are these classes now
+ like the classes of all golden retrievers
+ you can kind of guess that I'm still
+ sad that he passed away
+ as a very nice dog
+ whenever I see a golden retriever
+ maybe I should get another dog that's by the bar
+ but clearly golden retriever is not a dachshund
+ I also like toxins because my father had the Texan
+ not this time the class of all toxins is different from the class of a golden retrievers
+ and that's generally the case with this equality's so there is some space there in
+ in the Box 146 and here's the picture I wanted to draw there so let's draw the set a as a big
+ potato
+ I will think of the elements of areas. Cyr but you can think of animals or people
+ and now I can look at an little Elementary here if I did over here and I could say so what's equivalent to a
+ but that's a golden retriever like my golden retriever and here's the class of all golden retrievers
+ I could be everything
+ you know maybe this is the class of all dogs in my equivalent is only to be a dog and then everything is equivalent to my dog they all dogs
+ but if it's not then there is maybe an element be out here
+ which is not a golden retriever
+ and now I can also look at the class of me all the dogs that have of the same breed
+ has beat Texans
+ is it possible
+ that there is some overlap between Golden Retrievers and Jackson's Celeste
+ proof that actually for equivalence relation this cannot happen
+ why can that not happen
+ so not doing it to prove but I do it visually for you I want to say that if B does not belong to this class
+ if B is not golden retriever then the whole class of base is completely separate from the class of ice that cannot be an element in the middle here why not
+ why not
+ that's right because this element because it belongs to this class is equivalent to a
+ and because it belongs all to do this class it is equivalent to pee and by transitivity
+ B would be equivalent to a
+ and then be would have to be a member of the class of a and we said no that's just you don't we have an element which isn't already in it
+ so this cannot happen
+ so that is this little theorem there
+ which says if you have an equivalence class then either
+ we have that the class of a
+ is the same as the class of B is just a different golden retriever this be but they still Define the same class
+ mine was prettier than the other one stop
+ or
+ they are completely different and how can I write that I can say well there is nothing in the intersection
+ that is the empty set there is nothing that belongs birth to a NP
+ either this happens or that happen
+ either or exclusive or
+ so that's what I was saying about this classification that we in our mind do this all the time that we
+ classify the world we tried to classify the world and it still hardwired into our brains and becomes stop doing it
+ okay
+ so in this particular picture Droid again
+ and then that goes into box 1 for 7
+ let me try it again so he has my ground said hey and I have an equivalence relation for on a
+ and if it's not the empty set and there is some element here and then I can look at what's equivalent to a and that is the class of these elements here as I could be everything
+ life is not everything then there will be an element out here and the class of the element out here will be separate from that class it will be a new class so I'll draw it as if it was touching it but I really mean that this joint that don't overlap
+ I like those two things could be everything but it is not everything that maybe there's an element here and its class again would be disjoint from the other ones and that's it have maybe one more
+ okay maybe just like that
+ and maybe is everything another maybe everything is related to this element is so we get five different classes that's called a classification
+ I need a really means what we mean in everyday life unlike many other words that we use in mathematics and computer science this really means what it means it everyday life we are putting things into drawers different Ross and
+ that happens whenever you have an equivalence relation
+ so
+ okay if you do look who his relations in real life and there's always
+ is like life just never never is there anything so clear-cut and it is in mathematics now so you could say what's a species in biology
+ what is one species of animals that say okay that interbreed
+ I don't interbreed and it's not the same
+ species of different species in biology nothing is ever easy so if you go to The Big Valley was called in California
+ that little frog there live on the rim of the valley where it's not so dry
+ and then they interbreed with rocks in likes you know like 5 mile diameter and they interbreed at the edge they interbreed is 5 miles 385 Mazda diameter you go all the way around the Grand Valley and then from one end of the valley to the other end of the bar they were not interbreed now it's not transitive actually this relationship so in life everything is kind of messy and complicated but in mathematics everything for neatly into its individual class there's no overlap and everything is covered
+ so an equivalence relation that we have already seen or we didn't call it that when we saw it first it's one on the natural numbers where is the natural numbers and we could say x is equivalent with respect to m
+ 2 y If X and Y leave the same remainder when divided by m it so I could write that that what that means
+ if y - x is divisible by m that's another way of saying the same thing actually
+ so then we can draw a picture of the natural number say and we can
+ we can try to identify those equivalence classes
+ so maybe you tried to draw that picture yourself there for books 148 and try to draw the natural numbers in whichever way you like is that it doesn't have any particular arrangement
+ and then we do the equivalent modulo let's say Amigos 3 how would you draw the set of natural numbers
+ together with the classification that I'm getting from
+ numbers being equivalent module 03
+ okay. A break
+ it's okay
+ so I seen lots of good pictures for that particular situation maybe I'll draw it over here
+ so maybe an isometric picture is
+ ideal and then we could write 0 + 3 + 6 + 9 + 12... We would see what goes on here + 1 + 4 + 710 + here to + 5 + 8 + 11. That's why that's the best way to do it to group them together according to their talents and there's three classes classes and
+ when we view the integers with at equivalence or we really get is three things and we did notice that 3 in the first lecture in the first week many people would say that is equal to 0 1 and 2/3 smallest members in each class 0 1 and 2
+ but that actually is not useful when you want to compute with these numbers because why you do the multiplication for example 2 * 2
+ that's for obviously and then you would like to say but for is equivalent to one the really the way to write that 3 would be to say it is the natural numbers
+ together with this
+ special equality or equivalent
+ that comes from division by the number 3
+ and that is when the way actually practice you work with set 3 you work with all the numbers because you may have to but you say two of them are equivalent and so then maybe I can reduce the bigger to the smaller one in order to save some space
+ dog cat
+ not
+ people will still insist
+ to use this maybe
+ and why would that be
+ well let's see
+ it comes from the fact that
+ set three does have three elements and when I say this thing here I really mean I have three classes
+ but I can't implement the full class maybe on the computer
+ hot so I do want to work with representatives of the classes so that is the next topic
+ so I have my base set that I'm interested in
+ and it is classified according to an equivalence relation
+ and now in order to implement that I'd like to say there's four elements is for classes but these classes are very large account if the man that has a ho I can either try to implement this equipment I'll try to work with some representative from each class
+ in everything I do
+ so that is the idea of working with 0 1 and 2 and trying to to do that
+ so I could use set 3 for my example but I let's have another example where we saw this classification happening and that was when we look at fractions
+ are we said two fractions are equivalent
+ if they express the same ratio
+ so if a d is equal to BC. They express the same ratio
+ there isn't really it's not really a very convenient to work with the canonical representative of a class which would be maybe the fraction where this one is positive the denominator and this one was an integer and they don't have a factor in common but in reality we work with a fractions in order to express the rational numbers the rational numbers no are
+ this fractions modulo this equality March you know this equivalence relation and that is why people find it so difficult and school to do these computations because they constantly have to change the fraction
+ and it's still the same rational number
+ okay so when we in school learn about the operations on the fraction say the song
+ now we have to get a denominator that fits both or we can just say that's just like the product that always works
+ and then you have a d here last BC
+ okay
+ that is a good definition
+ for fractions because we learned it in school and must be good I told us we believe them
+ but why is it good could it be a bad definition When would that be a bad definition
+ the really a / B
+ that is only a representative of a whole class of infinitely many fractions that are not the same equivalent rational number same ratio
+ and C over D. Also a particular representative
+ of this class so what I really like to say is what happens when I add this rational number to this rational number is rational makes the whole class so to speak and I add them together by giving a formula for those two Representatives
+ that representative there again maybe it's this thing here a d b c over b d
+ this is how we learn to do this
+ when could that be a bad idea
+ then I'm making a lot of mess that is necessary statistics
+ I mean the answer would still be correct
+ but when will be like a really bad idea
+ okay that's too maybe it's just too hard for you
+ it would be a really bad idea if I now could take another representative from the same class
+ yeah
+ so a prime / B Prime in the same class Miss the same fraction is the same rational number Wiggly Express is the same ratio but it uses different numbers know she's like 1/2 + 17 / 34
+ it is the same ratio but expressed as a different fraction and for this one also I could pick an alternative
+ fraction
+ and now I do my formula
+ now it's a prime D Prime + B Prime C Prime / B Prime Deep Run
+ I would be really really horrible if that representative here that I get from those two guys
+ lost in a different class
+ from that one
+ not it doesn't work no I just doesn't work
+ that would mean that this operation Edition depends on which representative I pick if I pick the right the black one I end up in this class if I take the blue one I end up in this class that would be really bad
+ and that's not happening that's what happening with fractions so this does not this problem does not happen and that is something that we don't prove in school while we could prove it now
+ we could prove that if the inputs are related by the equivalence relation that we could prove
+ that the outputs of the operation I also related by the equivalence relation or if there's two are equal as rational numbers and those two are equals rational numbers it doesn't matter how you compute the sum because the results will be equal as rational numbers
+ that is a problem that is absolutely Central to computer science
+ many data types of abstract we already mentioned that in the first week I think they are abstract and these concrete things are representations in the computer send me perform some operations
+ and the question is all the operations sensitive to the internal representation or are they not sensitive to it in the sense that you run the operation on one realization is that result equivalent to the result you would get if you were to run it on a different representation and it must be that is a good that is a good system
+ if the internal representing is visible to the user that you have actually made a mistake
+ it must be abstract the day that I must be abstract in the sense that how it's being implemented is not visible on the outside of the data type just like here
+ so we can work with rational numbers using the fractions and we getting always the same result no matter which fractions we chose to represent the input rational number
+ okay so that's may not be so clear I don't think it was so very clear what I just said but I'll try it but you won't hear it many times I think I hope because it's an important aspect of good programming but there's still a box to field 151 and that is so pretty that I'd like to do it before we leave for the weekend okay
+ so that is to do with e
+ fractions the here I'm writing the denominator
+ and hear the numerator
+ and now every Point here with integer coordinates
+ stay like this
+ this point is the point with coordinates 1 1 and that is the fraction 1 over 1
+ and this point here is the fraction
+ - 1
+ / 1 - 1 / 1 + 1 is 101 with integer coordinates
+ can be viewed as the representation
+ all the fraction for the position of a fraction
+ now I can have 0 / 1 that's just 0
+ so they said okay
+ so I get all these parts are already in your hand. But strangely were not on the board when I came in so I have to to draw them
+ okay
+ in my high school the board had little markings in regular distance of a greater user for the teacher nevermind
+ on the line here I cannot have any thoughts because that would mean the denominator is 0
+ and that's not a fraction of the loud I don't have any numbers
+ a fraction starting practice okay so you got the picture huh
+ once you get it okay I can't say that's my picture for the equivalence class is now I can say so what does the equivalent of 1/1 look like it contains the number 101 or the fraction 1 over 1 it also contains the fraction 2/2 + 3/3 + 4/4 + -1 / -1
+ and
+ Elizabeth monkey - 2 / -2
+ and they want to Covenant according to this equivalence relation line and I can't hit the vertical axis
+ answer that is the rational number one
+ and if I do the same for the rational number one half
+ then I have numerator one denominator to this is 1/2
+ but that is also
+ 2 / 42 / 4 here
+ or
+ -1 / -2 and then here I see the rational number
+ 1/2 is again expressed by a line
+ to say that
+ and in fact that is the case for any rational number and an irrational number is here expressed as a straight line in this diagram
+ is -1
+ I'm down here with b - 1/2
+ lots of hope that's right here
+ okay
+ so then you remember a level the rational number is exactly the slope of the line
+ that is the rational number so that's a way of
+ illustrating the equivalence classes you get on the fractions that comes from this comparison.
+ Okay that's all I have to say good luck with your revision will be here on Monday the usual way but in different rooms that was an announcement about that otherwise I'll see you on Tuesday thank you
