@@ -62,17 +62,16 @@ class Parser(object):
         self.driver.quit()
         return links
 
-
-def main():
+def get_videos(username, password):
     p = Parser()
-    username = raw_input("Username: ")
-    password = getpass.getpass("Password: ")
+
     if not p.login(username, password):
         print("Problem with login")
         return
     links = p.get_video_urls()
-    print(links)
-    del p
+    return links
+
+def get_wav(links):
     i = 0
     for link in links:
         (
@@ -83,6 +82,7 @@ def main():
         )
         i += 1
 
-
 if __name__ == "__main__":
-    main()
+    username = raw_input("Username: ")
+    password = getpass.getpass("Password: ")
+    get_wav(get_videos(username, password))
