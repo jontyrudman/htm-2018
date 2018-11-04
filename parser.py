@@ -72,6 +72,7 @@ def get_videos(username, password):
     return links
 
 def get_wav(links):
+    links = links[::-1]
     for i, link in enumerate(links):
         (
             ffmpeg
