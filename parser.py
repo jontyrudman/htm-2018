@@ -43,12 +43,19 @@ for x in ids:
 num = 0
 for x in links:
     print(x)
-
-    (
-        ffmpeg
-        .input(x)
-        .output(str('output' + num + '.mp3'), '-', acodec='mulaw', ac=1)
-        .run()
-    )
+    driver.get(x)
+    x = driver.current_url
+    try:
+        (
+            ffmpeg
+            .input(x)
+            .output('output' + str(num) + '.wav', acodec='pcm_s16le', ac=1)
+            .run()
+        )
+    except:
+        driver.quit()
+    finally:
+        driver.quit()
     num = num + 1
 
+driver.quit()
