@@ -14,7 +14,7 @@ def generate(filename):
 
     # Print three randomly-generated sentences of no more than 140 characters
     for i in range(3):
-        print(text_model.make_short_sentence(140))
+        print(text_model.make_sentence())
 
 
 
