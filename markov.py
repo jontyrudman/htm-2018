@@ -6,7 +6,7 @@ def generate(filename):
         text = f.read()
 
     # Build the model.
-    text_model = markovify.NewlineText(text, state_size=2)
+    text_model = markovify.Text(text, state_size=2)
 
     # Print five randomly-generated sentences
     for i in range(5):

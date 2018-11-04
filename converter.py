@@ -53,7 +53,7 @@ def transcribe_gcs(filename):
     output = open(gcs_uri[17:]+'.txt', 'w')
     for result in response.results:
         # The first alternative is the most likely one for this portion.
-        output.write('{}'.format(result.alternatives[0].transcript))
+        output.write('{}.'.format(result.alternatives[0].transcript))
     output.close()
 # [END speech_transcribe_sync_gcs]
 
