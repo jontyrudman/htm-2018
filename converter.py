@@ -28,13 +28,14 @@ import io
 import time
 
 # [START speech_transcribe_sync_gcs]
-def transcribe_gcs(gcs_uri):
+def transcribe_gcs(filename):
     """Asynchronously transcribes the audio file specified by the gcs_uri."""
     from google.cloud import speech
     from google.cloud.speech import enums
     from google.cloud.speech import types
     client = speech.SpeechClient()
 
+    gcs_uri = 'gs://audioforhtm/{}'.format(filename)
     audio = types.RecognitionAudio(uri=gcs_uri)
     config = types.RecognitionConfig(
         language_code='en-US')
@@ -64,4 +65,4 @@ if __name__ == '__main__':
     parser.add_argument(
         'path', help='GCS path for audio file to be recognized')
     args = parser.parse_args()
-    transcribe_gcs('gs://audioforhtm/{}'.format(args.path))
+    transcribe_gcs(args.path)
