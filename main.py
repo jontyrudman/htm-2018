@@ -5,7 +5,7 @@ from converter import *
 from markov import *
 
 def update_videos(username, password):
-    get_wav(get_videos(username, password))
+    parser.get_wav(parser.get_videos(username, password))
     for root, dirs, files in os.walk(os.getcwd()):
         for file in files:
             if file.endswith('.wav'):
@@ -45,7 +45,7 @@ if __name__=='__main__':
 #    update_videos(username, password)
     #build_models()
     answer = 10
-    while answer:
+    while answer != "0":
         print(
 """
 [0] - exit
@@ -55,7 +55,7 @@ if __name__=='__main__':
 [4] - create a sentence!!!
 
 """)
-        answer = input("Answer: ")
+        answer = str(input("Answer: "))
         if answer == "1":
             username = raw_input("Username: ")
             password = getpass.getpass("Password: ")
