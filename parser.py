@@ -7,10 +7,12 @@ from bs4 import BeautifulSoup
 import getpass
 import time
 import os
+import ffmpeg
 
 os.environ['MOZ_HEADLESS'] = '1'
 driver = webdriver.Firefox()
 wait = ui.WebDriverWait(driver,10)
+driver.set_page_load_timeout(15)
 driver.get("https://canvas.bham.ac.uk/courses/31135/external_tools/1777/")
 username = raw_input("Username: ")
 password = getpass.getpass("Password: ")
@@ -38,10 +40,15 @@ for x in soup.find_all('a', class_="detail-title"):
 for x in ids:
     links.append("https://bham.cloud.panopto.eu/Panopto/Podcast/Social/" + x + ".mp4?mediaTargetType=videoPodcast")
 
+num = 0
 for x in links:
-    driver.get(x)
-    time.sleep(0.5)
-    x = driver.current_url
     print(x)
 
-driver.quit()
+    (
+        ffmpeg
+        .input(x)
+        .output(str('output' + num + '.mp3'), '-', acodec='mulaw', ac=1)
+        .run()
+    )
+    num = num + 1
+

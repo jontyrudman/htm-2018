@@ -2769,3 +2769,352 @@ JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: Type
 1541290346107	Marionette	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 [Child 4726, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1541290556478	geckodriver	INFO	geckodriver 0.18.0
+1541290556482	geckodriver	INFO	Listening on 127.0.0.1:49659
+*** You are running in headless mode.
+1541290557667	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541290561387	Marionette	INFO	Listening on port 33727
+1541290561466	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox-esr/firefox-esr:2477): dconf-CRITICAL **: unable to create directory '/home/gamesalad4/.cache/dconf': Permission denied.  dconf will not work properly.
+
+(/usr/lib/firefox-esr/firefox-esr:2477): dconf-CRITICAL **: unable to create directory '/home/gamesalad4/.cache/dconf': Permission denied.  dconf will not work properly.
+
+(/usr/lib/firefox-esr/firefox-esr:2477): dconf-CRITICAL **: unable to create directory '/home/gamesalad4/.cache/dconf': Permission denied.  dconf will not work properly.
+1541290661034	geckodriver	INFO	geckodriver 0.18.0
+1541290661038	geckodriver	INFO	Listening on 127.0.0.1:56681
+*** You are running in headless mode.
+1541290662235	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541290665683	Marionette	INFO	Listening on port 46633
+1541290665811	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo
+[Child 2619, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo
+[Child 2662, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541290673993	geckodriver	INFO	geckodriver 0.18.0
+1541290673998	geckodriver	INFO	Listening on 127.0.0.1:54427
+*** You are running in headless mode.
+1541290675262	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541290678283	Marionette	INFO	Listening on port 44281
+1541290678414	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 2733, MediaPlayback #2] WARNING: 7fcb41996400 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 2733, MediaPlayback #1] WARNING: Decoder=7fcb41463800 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 2733, MediaPlayback #1] WARNING: 7fcb4445df40 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 2733, MediaPlayback #1] WARNING: Decoder=7fcb4149ba00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 2733, MediaPlayback #3] WARNING: 7fcb414a6e80 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 2733, MediaPlayback #3] WARNING: Decoder=7fcb4149ae00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 2733, MediaPlayback #3] WARNING: 7fcb41471d00 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 2733, MediaPlayback #3] WARNING: Decoder=7fcb41468c00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Parent 2699, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 2699, Gecko_IOThread] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 2699, Gecko_IOThread] WARNING: pipe error (50): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 2699, Gecko_IOThread] WARNING: pipe error (49): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo
+[Child 2782, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541290812836	geckodriver	INFO	geckodriver 0.18.0
+1541290812886	geckodriver	INFO	Listening on 127.0.0.1:59721
+*** You are running in headless mode.
+1541290814317	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541290817944	Marionette	INFO	Listening on port 40969
+1541290817974	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 2890, MediaPlayback #2] WARNING: 7fcf11f04ac0 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 2890, MediaPlayback #3] WARNING: Decoder=7fcf141b3400 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 2890, MediaPlayback #3] WARNING: 7fcf093f7580 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 2890, MediaPlayback #1] WARNING: Decoder=7fcf11d83200 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 2890, MediaPlayback #1] WARNING: 7fcf11d0ad00 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 2890, MediaPlayback #1] WARNING: Decoder=7fcf11d81c00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Parent 2855, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 2855, Gecko_IOThread] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 2855, Gecko_IOThread] WARNING: pipe error (49): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 2943, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541291069529	geckodriver	INFO	geckodriver 0.18.0
+1541291069533	geckodriver	INFO	Listening on 127.0.0.1:57487
+*** You are running in headless mode.
+1541291070919	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541291074068	Marionette	INFO	Listening on port 41171
+1541291074170	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3079, MediaPlayback #3] WARNING: 7f381b2b2dc0 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3079, MediaPlayback #3] WARNING: Decoder=7f3810ee3a00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3079, MediaPlayback #2] WARNING: 7f380f169880 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3079, MediaPlayback #2] WARNING: Decoder=7f3810ee1400 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3079, MediaPlayback #3] WARNING: 7f381afdb700 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3079, MediaPlayback #1] WARNING: Decoder=7f3810ef4200 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3079, MediaPlayback #1] WARNING: 7f3810cfcc40 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3079, MediaPlayback #1] WARNING: Decoder=7f3810edfe00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+ExceptionHandler::GenerateDump cloned child 3173
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+[Parent 3045, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 3045, Gecko_IOThread] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 3045, Gecko_IOThread] WARNING: pipe error (49): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+Unable to init server: Could not connect: Connection refused
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo
+[Child 3122, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541292825905	geckodriver	INFO	geckodriver 0.18.0
+1541292825909	geckodriver	INFO	Listening on 127.0.0.1:59695
+*** You are running in headless mode.
+1541292827173	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541292829981	Marionette	INFO	Listening on port 37397
+1541292829991	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3264, MediaPlayback #1] WARNING: 7faf821ccf40 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3264, MediaPlayback #1] WARNING: Decoder=7faf8bf42c00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3264, MediaPlayback #3] WARNING: 7faf83602a00 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3264, MediaPlayback #2] WARNING: Decoder=7faf8bf41200 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3264, MediaPlayback #1] WARNING: 7faf8214f4c0 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3264, MediaPlayback #2] WARNING: Decoder=7faf7d22bc00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3264, MediaPlayback #2] WARNING: 7faf8ba24f40 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3264, MediaPlayback #2] WARNING: Decoder=7faf7d22f200 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3264, MediaPlayback #1] WARNING: 7faf8baa5b80 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3264, MediaPlayback #1] WARNING: Decoder=7faf7d231000 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3264, MediaPlayback #1] WARNING: Decoder=7faf7d231000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3445
+[Child 3264, MediaPlayback #3] WARNING: 7faf8214fdc0 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3264, MediaPlayback #3] WARNING: Decoder=7faf80ff3400 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+ExceptionHandler::GenerateDump cloned child 3358
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Unable to init server: Could not connect: Connection refused
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo
+[Child 3311, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541292946631	geckodriver	INFO	geckodriver 0.18.0
+1541292946636	geckodriver	INFO	Listening on 127.0.0.1:56397
+*** You are running in headless mode.
+1541292947863	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541292950809	Marionette	INFO	Listening on port 44293
+1541292950910	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541292988199	geckodriver	INFO	geckodriver 0.18.0
+1541292988203	geckodriver	INFO	Listening on 127.0.0.1:37255
+*** You are running in headless mode.
+1541292989378	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541292992499	Marionette	INFO	Listening on port 34247
+1541292992528	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3535, MediaPlayback #2] WARNING: 7f13e20d7280 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3535, MediaPlayback #3] WARNING: Decoder=7f13e3bf0a00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3535, MediaPlayback #1] WARNING: 7f13e2042f40 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3535, MediaPlayback #1] WARNING: Decoder=7f13e3bed600 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3535, MediaPlayback #2] WARNING: 7f13e3a5a1c0 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3535, MediaPlayback #2] WARNING: Decoder=7f13e3beda00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3535, MediaPlayback #1] WARNING: 7f13e20d7040 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3535, MediaPlayback #2] WARNING: Decoder=7f13e3bf0800 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3535, MediaPlayback #3] WARNING: 7f13e3b5c1c0 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3535, MediaPlayback #3] WARNING: Decoder=7f13e3befa00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3535, MediaPlayback #3] WARNING: Decoder=7f13e3befa00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3445
+[Child 3535, MediaPlayback #3] WARNING: 7f13e3afcd00 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3535, MediaPlayback #3] WARNING: Decoder=7f13e3bee200 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3535, MediaPlayback #3] WARNING: 7f13e2042400 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3535, MediaPlayback #3] WARNING: Decoder=7f13e3bee600 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3535, MediaPlayback #3] WARNING: 7f13e2042b80 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3535, MediaPlayback #3] WARNING: Decoder=7f13e3bf0200 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3535, MediaPlayback #2] WARNING: 7f13e269a580 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3535, MediaPlayback #2] WARNING: Decoder=7f13e3bffa00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+ExceptionHandler::GenerateDump cloned child 3634
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Unable to init server: Could not connect: Connection refused
+1541293495260	geckodriver	INFO	geckodriver 0.18.0
+1541293495293	geckodriver	INFO	Listening on 127.0.0.1:36499
+*** You are running in headless mode.
+1541293496533	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541293500345	Marionette	INFO	Listening on port 34759
+1541293500373	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3720, MediaPlayback #2] WARNING: 7f0fe9ed2880 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3720, MediaPlayback #2] WARNING: Decoder=7f0ff55c1800 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3720, MediaPlayback #2] WARNING: 7f0fe9d4e940 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3720, MediaPlayback #2] WARNING: Decoder=7f0ff2e9ca00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3720, MediaPlayback #2] WARNING: 7f0fe9e41d00 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3720, MediaPlayback #2] WARNING: Decoder=7f0ff2c74a00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3720, MediaPlayback #3] WARNING: 7f0ff2937400 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3720, MediaPlayback #3] WARNING: Decoder=7f0ff2c72400 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3720, MediaPlayback #1] WARNING: 7f0ff2959c40 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3720, MediaPlayback #1] WARNING: Decoder=7f0ff2c74600 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3720, MediaPlayback #1] WARNING: Decoder=7f0ff2c74600 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3445
+[Child 3720, MediaPlayback #3] WARNING: 7f0fe9d4e100 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3720, MediaPlayback #3] WARNING: Decoder=7f0ff2c76c00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3720, MediaPlayback #3] WARNING: 7f0ff2959580 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3720, MediaPlayback #3] WARNING: Decoder=7f0ff2c75400 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3720, MediaPlayback #3] WARNING: 7f0fe9e7f640 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3720, MediaPlayback #3] WARNING: Decoder=7f0ff2c75c00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3720, MediaPlayback #2] WARNING: 7f0fe9d4e280 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3720, MediaPlayback #2] WARNING: Decoder=7f0ff2dec600 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Parent 3685, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 3685, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 3685, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 3685, Gecko_IOThread] WARNING: pipe error (47): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+1541293731866	geckodriver	INFO	geckodriver 0.18.0
+1541293731918	geckodriver	INFO	Listening on 127.0.0.1:39157
+*** You are running in headless mode.
+1541293733336	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541293737239	Marionette	INFO	Listening on port 38873
+1541293737274	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3837, Gecko_IOThread] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 3837, Gecko_IOThread] WARNING: pipe error (49): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3914, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541293801021	geckodriver	INFO	geckodriver 0.18.0
+1541293801025	geckodriver	INFO	Listening on 127.0.0.1:50493
+*** You are running in headless mode.
+1541293802204	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541293805053	Marionette	INFO	Listening on port 33263
+1541293805159	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3993, MediaPlayback #2] WARNING: 7f19606dc100 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3993, MediaPlayback #3] WARNING: Decoder=7f19608db800 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 3993, MediaPlayback #3] WARNING: 7f19606b4100 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 3993, MediaPlayback #2] WARNING: Decoder=7f1949a83200 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+ExceptionHandler::GenerateDump cloned child 4096
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+[Parent 3959, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 3959, Gecko_IOThread] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+Unable to init server: Could not connect: Connection refused
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4039, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541293922745	geckodriver	INFO	geckodriver 0.18.0
+1541293922785	geckodriver	INFO	Listening on 127.0.0.1:47093
+*** You are running in headless mode.
+1541293924055	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541293927337	Marionette	INFO	Listening on port 43673
+1541293927389	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4154, MediaPlayback #3] WARNING: 7f8053f60e80 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 4154, MediaPlayback #3] WARNING: Decoder=7f805005b800 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 4154, MediaPlayback #1] WARNING: 7f8051136b80 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 4154, MediaPlayback #2] WARNING: Decoder=7f8054299000 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 4154, MediaPlayback #2] WARNING: 7f8051136a00 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 4154, MediaPlayback #2] WARNING: Decoder=7f8041c8bc00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+ExceptionHandler::GenerateDump cloned child 4246
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Unable to init server: Could not connect: Connection refused
+1541294530489	geckodriver	INFO	geckodriver 0.18.0
+1541294530534	geckodriver	INFO	Listening on 127.0.0.1:37049
+*** You are running in headless mode.
+1541294531849	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541294534750	Marionette	INFO	Listening on port 38621
+1541294534781	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4395, Gecko_IOThread] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 4395, Gecko_IOThread] WARNING: pipe error (49): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4475, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541294875720	geckodriver	INFO	geckodriver 0.18.0
+1541294875723	geckodriver	INFO	Listening on 127.0.0.1:48163
+*** You are running in headless mode.
+1541294876898	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541294879572	Marionette	INFO	Listening on port 39745
+1541294879636	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4570, MediaPlayback #1] WARNING: 7f2a5831b4c0 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 4570, MediaPlayback #1] WARNING: Decoder=7f2a57ec5600 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 4570, MediaPlayback #3] WARNING: 7f2a58366640 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 4570, MediaPlayback #3] WARNING: Decoder=7f2a57d78400 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 4570, MediaPlayback #1] WARNING: 7f2a5837b100 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 4570, MediaPlayback #1] WARNING: Decoder=7f2a57d77c00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+ExceptionHandler::GenerateDump cloned child 4666
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+[Parent 4536, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 4536, Gecko_IOThread] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+Unable to init server: Could not connect: Connection refused
+1541294952415	geckodriver	INFO	geckodriver 0.18.0
+1541294952419	geckodriver	INFO	Listening on 127.0.0.1:40113
+*** You are running in headless mode.
+1541294953813	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541294957055	Marionette	INFO	Listening on port 38663
+1541294957149	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4724, MediaPlayback #3] WARNING: 7f955b255400 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 4724, MediaPlayback #3] WARNING: Decoder=7f9557d4a800 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 4724, MediaPlayback #3] WARNING: 7f955d3b5280 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 4724, MediaPlayback #3] WARNING: Decoder=7f955d3c1600 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+[Child 4724, MediaPlayback #2] WARNING: 7f955b218f40 OpenCubeb() failed to init cubeb: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/AudioStream.cpp, line 388
+[Child 4724, MediaPlayback #2] WARNING: Decoder=7f9549f3cc00 [OnMediaSinkAudioError]: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/dom/media/MediaDecoderStateMachine.cpp, line 3750
+ExceptionHandler::GenerateDump cloned child 4816
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Unable to init server: Could not connect: Connection refused
+1541295701704	geckodriver	INFO	geckodriver 0.18.0
+1541295701736	geckodriver	INFO	Listening on 127.0.0.1:52931
+*** You are running in headless mode.
+1541295703137	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541295706867	Marionette	INFO	Listening on port 42019
+1541295706969	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541296169482	geckodriver	INFO	geckodriver 0.18.0
+1541296169546	geckodriver	INFO	Listening on 127.0.0.1:53025
+*** You are running in headless mode.
+1541296171118	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541296175994	Marionette	INFO	Listening on port 42793
+1541296176281	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5128, Gecko_IOThread] WARNING: pipe error (47): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+1541296233108	geckodriver	INFO	geckodriver 0.18.0
+1541296233171	geckodriver	INFO	Listening on 127.0.0.1:60439
+*** You are running in headless mode.
+1541296234743	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541296273705	geckodriver	INFO	geckodriver 0.18.0
+1541296273729	geckodriver	INFO	Listening on 127.0.0.1:51767
+*** You are running in headless mode.
+1541296275542	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+[Child 5362, Chrome_ChildThread] WARNING: pipe error (32): Connection reset by peer: file /build/firefox-esr-d2Q9MH/firefox-esr-60.3.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541296316366	geckodriver	INFO	geckodriver 0.18.0
+1541296316402	geckodriver	INFO	Listening on 127.0.0.1:55631
+*** You are running in headless mode.
+1541296318172	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541296399036	geckodriver	INFO	geckodriver 0.18.0
+1541296399085	geckodriver	INFO	Listening on 127.0.0.1:59113
+*** You are running in headless mode.
+1541296400720	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+1541296513667	geckodriver	INFO	geckodriver 0.18.0
+1541296513697	geckodriver	INFO	Listening on 127.0.0.1:39323
+*** You are running in headless mode.
+1541296515302	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+*** You are running in headless mode.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 337)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:337:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:330:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:354:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:394:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:66:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
+1541296857390	Marionette	INFO	Listening on port 41377
